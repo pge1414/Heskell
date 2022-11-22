@@ -32,3 +32,10 @@ def verdoppeln_quadrieren_alt(zahl:int) -> int:
     return verdoppeln_quadrieren_alt_helper(zahl, True, 0)
 
 print(verdoppeln_quadrieren_alt(500))
+
+import math
+from copy import deepcopy
+
+def optimum(liste:list[int]) -> int:
+    best = -math.inf
+
