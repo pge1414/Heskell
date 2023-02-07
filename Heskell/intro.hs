@@ -24,10 +24,6 @@ summe :: [Int] -> Int
 summe [] = -1
 summe (x:xs) = x + summe xs
 
-länge :: [Int] -> Int
-länge [] = 0
-länge (x:xs) = länge xs + 1
-
 nimm :: Int -> [Int] -> Int
 nimm _ [] = -1
 nimm 0 (x:xs) = x
